@@ -16,19 +16,19 @@
     'name': 'storage.modifier.speeds.gcode'
   }
   {
-    'match': '[Gg][ \\t]*[32,73-89,98,99](\\.[\\d])?[ \\t]*(?!\\d)'
+    'match': '[Gg][ \\t]*(32|7[3-9]|8[0-9]|98|99)(\\.[\\d])?[ \\t]*(?!\\d)'
     'name': 'support.function.canned.gcode'
   }
   {
-    'match': '[Gg][ \\t]*[15,16,17,18,19,20,21,52-59,68,69,90-92](\\.[\\d])?[ \\t]*(?!\\d)'
+    'match': '[Gg][ \\t]*(1[5-9]|20|21|5[2-9]|68|69|90|91|92)(\\.[\\d])?[ \\t]*(?!\\d)'
     'name': 'support.function.coordinate.gcode'
   }
   {
-    'match': '[Gg][ \\t]*[10,40-51](\\.[\\d])?[ \\t]*(?!\\d)'
+    'match': '[Gg][ \\t]*(10|4[0-9]|50|51)(\\.[\\d])?[ \\t]*(?!\\d)'
     'name': 'support.function.compensation.gcode'
   }
   {
-    'match': '[Gg][ \\t]*0?[1-5,9,27,28,29,30,92,94-97](\\.[\\d])?[ \\t]*(?!\\d)'
+    'match': '[Gg][ \\t]*0?(0|[1-5]|9|27|28|29|30|92|9[4-7])(\\.[\\d])?[ \\t]*(?!\\d)'
     'name': 'support.function.motion.gcode'
   }
   {
@@ -48,11 +48,11 @@
     'name': 'keyword.control.mcode.coolant.gcode'
   }
   {
-    'match': '[Mm][ \\t]*0?[3-5,19][ \\t]*(?!\\d)'
+    'match': '[Mm][ \\t]*0?([3-5]|19)[ \\t]*(?!\\d)'
     'name': 'keyword.control.mcode.spindle.gcode'
   }
   {
-    'match': '[Mm][ \\t]*0?[0,1,2,30,60][ \\t]*(?!\\d)'
+    'match': '[Mm][ \\t]*0?([0,1,2]|30|60)[ \\t]*(?!\\d)'
     'name': 'keyword.control.mcode.program.gcode'
   }
   {
