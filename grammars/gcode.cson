@@ -44,12 +44,16 @@
     'name': 'keyword.control.mcode.gcode'
   }
   {
-    'match': '[xXyYzZfFpPqQEeSsRrAaBbCc]'
+    'match': '[xXyYzZfFpPqQEeSsRrAaBbCcIiJjKkQqLlHhDd]'
     'name': 'variable.parameter.gcode'
   }
   {
+    'match': 'P[01]'
+    'name': 'constant.language.modal.gcode'
+  }
+  {
     'match': '\\-?[\\d]+\\.?[\\d]*'
-    'name': 'constant.numeric.gcode'
+    'name': 'constant.numeric.values.gcode'
   }
   {
     'begin': '\\('
