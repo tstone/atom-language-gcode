@@ -40,8 +40,20 @@
     'name': 'comment.block.linenumber.gcode'
   }
   {
+    'match': '[Mm][ \\t]*0?[7-9][ \\t]*(?!\\d)'
+    'name': 'keyword.control.mcode.coolant.gcode'
+  }
+  {
+    'match': '[Mm][ \\t]*0?[3-5,19][ \\t]*(?!\\d)'
+    'name': 'keyword.control.mcode.spindle.gcode'
+  }
+  {
+    'match': '[Mm][ \\t]*0?[0,1,2,30,60][ \\t]*(?!\\d)'
+    'name': 'keyword.control.mcode.program.gcode'
+  }
+  {
     'match': '[mM]([ \\t]*[\\d](\\.[\\d])?)*[ \\t]*'
-    'name': 'keyword.control.mcode.gcode'
+    'name': 'keyword.control.mcode.other.gcode'
   }
   {
     'match': '[xXyYzZfFpPqQEeSsRrAaBbCcIiJjKkQqLlHhDd]'
