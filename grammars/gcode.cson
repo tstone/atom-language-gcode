@@ -12,16 +12,24 @@
     'name': 'comment.gcode'
   }
   {
-    'match': '[gG]([ \\t]*[\\d])*[ \\t]*'
-    'name': 'keyword.control.gcode.gcode'
+    'match': '[gG]([ \\t]*[\\d](\\.[\\d])?)*[ \\t]*'
+    'name': 'support.function.gcode.gcode'
   }
   {
-    'match': '[mM]([ \\t]*[\\d])*[ \\t]*'
+    'match': '[TtHh]([ \\t]*[\\d](\\.[\\d])?)*[ \\t]*'
+    'name': 'constant.other.tool.gcode'
+  }
+  {
+    'match': '[Nn][ \\t]*[\\d]*[ \\t]*'
+    'name': 'meta.linenumber.gcode'
+  }
+  {
+    'match': '[mM]([ \\t]*[\\d](\\.[\\d])?)*[ \\t]*'
     'name': 'keyword.control.mcode.gcode'
   }
   {
-    'match': '[xXyYzZfFpPqQEeSs]'
-    'name': 'string.parameter.gcode'
+    'match': '[xXyYzZfFpPqQEeSsRrAaBbCc]'
+    'name': 'variable.parameter.gcode'
   }
   {
     'match': '\\-?[\\d]+\\.?[\\d]*'
