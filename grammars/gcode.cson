@@ -17,19 +17,19 @@
   }
   {
     'match': '[Gg][ \\t]*(32|7[3-9]|8[0-9]|98|99)(\\.[\\d])?[ \\t]*(?!\\d)'
-    'name': 'support.function.canned.gcode'
+    'name': 'support.function.class.canned.gcode'
   }
   {
     'match': '[Gg][ \\t]*(1[5-9]|20|21|5[2-9]|68|69|90|91|92)(\\.[\\d])?[ \\t]*(?!\\d)'
-    'name': 'support.function.coordinate.gcode'
+    'name': 'support.function.type.coordinate.gcode'
   }
   {
     'match': '[Gg][ \\t]*(10|4[0-9]|50|51)(\\.[\\d])?[ \\t]*(?!\\d)'
-    'name': 'support.function.compensation.gcode'
+    'name': 'support.function.variable.compensation.gcode'
   }
   {
     'match': '[Gg][ \\t]*0?(0|[1-5]|9|27|28|29|30|92|9[4-7])(\\.[\\d])?[ \\t]*(?!\\d)'
-    'name': 'support.function.motion.gcode'
+    'name': 'support.function.constant.motion.gcode'
   }
   {
     'match': '[gG]([ \\t]*[\\d](\\.[\\d])?)*[ \\t]*'
@@ -53,11 +53,11 @@
   }
   {
     'match': '[Mm][ \\t]*0?([0,1,2]|30|60)[ \\t]*(?!\\d)'
-    'name': 'keyword.control.mcode.program.gcode'
+    'name': 'keyword.operator.mcode.program.gcode'
   }
   {
     'match': '[mM]([ \\t]*[\\d](\\.[\\d])?)*[ \\t]*'
-    'name': 'keyword.control.mcode.other.gcode'
+    'name': 'keyword.other.mcode.other.gcode'
   }
   {
     'match': '[xXyYzZfFpPqQEeSsRrAaBbCcIiJjKkQqLlHhDd]'
