@@ -21,7 +21,7 @@
   }
   {
     'match': '[Nn][ \\t]*[\\d]*[ \\t]*'
-    'name': 'meta.linenumber.gcode'
+    'name': 'comment.block.linenumber.gcode'
   }
   {
     'match': '[mM]([ \\t]*[\\d](\\.[\\d])?)*[ \\t]*'
