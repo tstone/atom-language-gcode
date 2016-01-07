@@ -12,15 +12,19 @@
     'name': 'comment.gcode'
   }
   {
-    'match': '[Gg][ \\t][32,73-89,98,99](\\.[\\d])?[ \\t]*(?!\\d)'
+    'match': '[FfSs][ \\t]*[\\d]+(\\.[\\d])?[ \\t]*'
+    'name': 'storage.modifier.speeds.gcode'
+  }
+  {
+    'match': '[Gg][ \\t]*[32,73-89,98,99](\\.[\\d])?[ \\t]*(?!\\d)'
     'name': 'support.function.canned.gcode'
   }
   {
-    'match': '[Gg][ \\t][15,16,17,18,19,20,21,52-59,68,69,90-92](\\.[\\d])?[ \\t]*(?!\\d)'
+    'match': '[Gg][ \\t]*[15,16,17,18,19,20,21,52-59,68,69,90-92](\\.[\\d])?[ \\t]*(?!\\d)'
     'name': 'support.function.coordinate.gcode'
   }
   {
-    'match': '[Gg][ \\t][10,40-51](\\.[\\d])?[ \\t]*(?!\\d)'
+    'match': '[Gg][ \\t]*[10,40-51](\\.[\\d])?[ \\t]*(?!\\d)'
     'name': 'support.function.compensation.gcode'
   }
   {
